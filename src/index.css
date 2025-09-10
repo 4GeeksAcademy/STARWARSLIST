@@ -1,0 +1,215 @@
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar styles */
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+}
+
+.btn-home {
+    background: none;
+    color: #fff;
+    border: #fff 1px solid;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navbar button:hover {
+    background: none;
+    color: #fff;
+    text-shadow: 1px 1px 4px #fff;
+}
+
+.btn-group .btn {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+}
+
+.btn-group .btn:first-child {          
+  border-radius: 10px 0 0 10px; 
+}
+
+.btn-group .dropdown-toggle {
+  border-left: none;            
+  border-radius: 0 10px 10px 0; 
+}
+
+.dropdown-menu {
+    background-color: #222;
+    border: none;
+}
+
+.dropdown-menu li {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #666 solid 1px;
+}
+
+.dropdown-menu li:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.dropdown-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.deleteFavorite {
+    background: none;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+}
+
+.deleteFavorite:hover,
+.deleteFavorite:focus {
+    background: none;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+/* Body styles */
+
+h2 {
+    font-size: 1.5rem;
+    margin: 3rem 5rem 0 5rem;
+    color: #fff;
+    border-bottom: #666 solid 1px;
+    padding-bottom: 2rem;
+    
+}
+
+.Loading {
+    display: flex;
+    margin-left: 8rem;
+    align-items: center;
+    color: #fff;
+}
+
+/* Card styles */
+
+.CardList {
+  display: flex;
+  overflow-x: auto;
+  padding: 2rem 1rem;
+  list-style: none;
+  gap: 1rem;
+}
+
+.card {
+    width: 15rem;
+    background-color: #222;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+.card-title {
+    margin-bottom: 2rem;
+}
+
+.CardButton {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.CardButton:hover {
+    color: #000;
+    box-shadow: 0px 0px 8px #000;
+    text-shadow: 0 0 4px #fff;
+}
+
+.favoriteHeartButton {
+    background: none;
+    border: none;
+    color: #f00;
+}
+
+.favoriteHeartButton:hover {
+    text-shadow: 0 0 4px #c00;
+}
+
+.heartButton {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.heartButton:hover {
+    text-shadow: 0 0 4px #ccc;
+}
+
+.thrashButton, .thrashButton:hover, .thrashButton:focus {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.CardList::-webkit-scrollbar {
+  height: 0.5rem;                      
+}
+
+.CardList::-webkit-scrollbar-thumb {
+  background: #333;                 
+  border-radius: 10px;
+}
+
+/* Card info styles */
+
+.cardInfo {
+    width: 50vw;
+    margin: auto;
+}
+
+.cardInfo:hover {
+    transform: none;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border-top: 1px solid #666;
+}
+
+.card-footer span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #666;
+    padding-left: 1rem;
+}
+
+.card-footer span:first-child {
+    border-left: none;
+    padding-left: 0;
+}
